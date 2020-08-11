@@ -28,7 +28,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="https://e7.pngegg.com/pngimages/662/687/png-clipart-basketball-illustration-basketball-sports-equipment-sports-league-woodville-tompkins-institute-basketball-sport-orange-thumbnail.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                    <img src="https://e7.pngegg.com/pngimages/662/687/png-clipart-basketball-illustration-basketball-sports-equipment-sports-league-woodville-tompkins-institute-basketball-sport-orange-thumbnail.png" width="50" height="50" class="d-inline-block align-top" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -66,6 +66,7 @@
                         @else
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <img src="{{Auth::user()->avatar}}" style="height: 60px; width: 60px; border-radius: 50%; margin-right: 15px;" alt="">
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
 
