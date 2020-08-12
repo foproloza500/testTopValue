@@ -28,7 +28,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="https://e7.pngegg.com/pngimages/662/687/png-clipart-basketball-illustration-basketball-sports-equipment-sports-league-woodville-tompkins-institute-basketball-sport-orange-thumbnail.png" width="50" height="50" class="d-inline-block align-top" alt="">
+                    <img src="images/icons/454716_preview.png" width="50" height="50" class="d-inline-block align-top" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -38,16 +38,10 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
+                            <a class="nav-link" href="gallery">Gallery</a>
                         </li>
                     </ul>
 

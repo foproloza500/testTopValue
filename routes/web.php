@@ -20,7 +20,10 @@ Route::get('/', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+Route::post('/upload', 'UploadController@create');
+Route::post('/file/delete/{id}', 'CatalogController@destroy');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
